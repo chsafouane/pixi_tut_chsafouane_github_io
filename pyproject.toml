@@ -17,6 +17,8 @@ platforms = ["win-64"]
 fastapi_app = { path = ".", editable = true }
 
 [tool.pixi.tasks]
+start = "uvicorn my_app.main:app --reload --host 0.0.0.0"
+lint = { task = "ruff check src --fix", environment = "fastapi-dev-env" }
 
 [tool.pixi.dependencies]
 python = "3.12.*"

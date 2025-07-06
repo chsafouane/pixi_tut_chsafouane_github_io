@@ -280,7 +280,7 @@ packages:
 - pypi: ./
   name: fastapi-app
   version: 0.1.0
-  sha256: d65f13fb5c11540b565cb5df76f6995ddbfdaffe8e51ca6caaf5251486a6a878
+  sha256: ebd5f1b2906c52ed6c4b752e94d589a903cf85a345c19833c90aa2ec0184ef21
   requires_dist:
   - fastapi>=0.115.14,<0.116
   - uvicorn[standard]>=0.35.0,<0.36
